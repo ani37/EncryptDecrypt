@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoFragment">
+    <EditText
+        android:id="@+id/entext1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter/paste users first encrypted key"
+        android:textSize="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/entext2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter/paste users second encrypted key"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="10dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/entext3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter/paste users third encrypted key"
+        android:textSize="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/entext4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter/paste users fourth encrypted key"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="10dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="150dp"
+        android:textSize="30dp"
+        android:text="DECRYPT"
+
+
+        />
+    <TextView
+        android:id="@+id/decryptedtext"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Your Decoded Message"
+
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+</RelativeLayout>

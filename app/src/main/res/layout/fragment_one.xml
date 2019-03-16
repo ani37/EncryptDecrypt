@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneFragment">
+    <EditText
+        android:id="@+id/pbf"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter/paste users first public key"
+        android:textSize="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/pbs"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter/paste users second public key"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="10dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="180dp"
+        android:hint="Enter the Message in numbers"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        />
+     <Button
+         android:id="@+id/encript"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="280dp"
+         android:background="#FFFFFF"
+         android:layout_marginLeft="150dp"
+         android:textSize="30dp"
+         android:text="ENCRYPT"
+
+
+         />
+    <TextView
+        android:id="@+id/entext1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="10dp"
+     android:hint="your first Encripted text"
+
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/entext2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="10dp"
+        android:hint="your second Encripted text"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/entext3"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="470dp"
+        android:textSize="10dp"
+        android:hint="your third Encrypted text"
+
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/entext4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="your fourth Encrypted text"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+</RelativeLayout>
