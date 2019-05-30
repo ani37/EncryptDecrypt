@@ -544,6 +544,10 @@
         "source": "A:\\projects\\EncriptDecriypt\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "A:\\projects\\EncriptDecriypt\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_privacy_policy.xml.flat",
+        "source": "A:\\projects\\EncriptDecriypt\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
+    },
+    {
         "merged": "A:\\projects\\EncriptDecriypt\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
         "source": "C:\\Users\\Aniket Agarwalla\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d00e65069cb6c33a95b65a0f87eb533c\\res\\layout\\select_dialog_multichoice_material.xml"
     },
@@ -774,6 +778,10 @@
     {
         "merged": "A:\\projects\\EncriptDecriypt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\Aniket Agarwalla\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\fd9015ded1cb32d3c8925035a4c5874e\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "A:\\projects\\EncriptDecriypt\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_privacy_policy.xml.flat",
+        "source": "A:\\projects\\EncriptDecriypt\\app\\src\\main\\res\\layout\\content_privacy_policy.xml"
     },
     {
         "merged": "A:\\projects\\EncriptDecriypt\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_password_icon.xml.flat",

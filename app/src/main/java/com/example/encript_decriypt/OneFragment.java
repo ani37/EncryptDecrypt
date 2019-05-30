@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import java.math.BigInteger;
 import java.util.Objects;
+import java.util.Random;
 
 import static android.content.Context.CLIPBOARD_SERVICE;
 
@@ -108,6 +109,14 @@ private ClipboardManager myClipboard;
             res = res + temp;
         }
         return res;
+    }
+    public static BigInteger nextRandomBigInteger(BigInteger n) {
+        Random rand = new Random();
+        BigInteger result = new BigInteger(n.bitLength(), rand);
+        while( result.compareTo(n) >= 40) {
+            result = new BigInteger(n.bitLength(), rand);
+        }
+        return result;
     }
     public static void Point_addition(BigInteger xf,BigInteger xs,BigInteger yf,BigInteger ys,BigInteger a,BigInteger Mod)
     {
@@ -254,13 +263,14 @@ private ClipboardManager myClipboard;
     //main method
     public static void encryption(BigInteger Pbf,BigInteger Pbs,BigInteger Mess)
     {
-        BigInteger Mod,C,X,Y,A,B,K,Gf,Gs,Pms,Pmf,Encrip1f,Encrip1s,Encrip2f,Encrip2s,Pirxf,Pirxs;
+        BigInteger Mod,C,X,Y,A,B,K,Gf,Gs,Pms,Pmf,Encrip1f,Encrip1s,Encrip2f,Encrip2s,Pirxf,Pirxs,P;
+        P  = new BigInteger("1000000007");
         Mod = new BigInteger("8948962207650232551656602815159153422162609644098354511344597187200057010413552439917934304191956942765446530386427345937963894309923928536070534607816947");
         A = new BigInteger("6294860557973063227666421306476379324074715770622746227136910445450301914281276098027990968407983962691151853678563877834221834027439718238065725844264138");
         B = new BigInteger("3245789008328967059274849584342077916531909009637501918328323668736179176583263496463525128488282611559800773506973771797764811498834995234341530862286627");
         Gf = new BigInteger("6792059140424575174435640431269195087843153390102521881468023012732047482579853077545647446272866794936371522410774532686582484617946013928874296844351522");
         Gs = new BigInteger("6592244555240112873324748381429610341312712940326266331327445066687010545415256461097707483288650216992613090185042957716318301180159234788504307628509330");
-        K = new BigInteger("47");
+        K = new BigInteger(String.valueOf(nextRandomBigInteger(P.subtract(BigInteger.ONE))));
         Pmf = BigInteger.ZERO;
         Pms = BigInteger.ZERO;
 

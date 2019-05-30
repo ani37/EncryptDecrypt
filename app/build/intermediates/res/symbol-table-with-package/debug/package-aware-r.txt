@@ -831,6 +831,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1103,11 +1104,13 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id en1
 id encript
 id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id entext
 id entext1
 id entext2
 id entext3
@@ -1167,6 +1170,7 @@ id pbf
 id pbs
 id percent
 id pin
+id privacyPolicyButton
 id progress_circular
 id progress_horizontal
 id radio
@@ -1250,6 +1254,7 @@ id useLogo
 id view_offset_helper
 id viewpager
 id visible
+id webView
 id withText
 id wrap
 id wrap_content
@@ -1301,6 +1306,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_privacy_policy
+layout content_privacy_policy
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1398,6 +1405,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_privacy_policy
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1597,7 +1605,10 @@ style CardView
 style CardView_Dark
 style CardView_Light
 style MyMaterialTheme
+style MyMaterialTheme_AppBarOverlay
 style MyMaterialTheme_Base
+style MyMaterialTheme_NoActionBar
+style MyMaterialTheme_PopupOverlay
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
