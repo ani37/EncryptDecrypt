@@ -88,5 +88,5 @@ nb: Receiver’s private key.<br>
 ### Koblitz encoding technique<br>
 Given an elliptic curve over a finite field Ep : y<sup>2</sup> = x<sup>3</sup> + ax + b mod p. Represent the plain
 message as an integer m where 0 ≤ m < p/1000 − 1.<br> For 0 ≤ j < 1000, compute xj = 1000m + j
-and sj = xj<sup>3</sup> + axj + b mod p. If sj<sup>(</sup>p−1)/2 ≡ 1 mod p, then sj is a square mod p. For p ≡ 3 mod 4, yj ≡ sj<sup> </sup>(p+1)/4 mod p.<br>
+and sj = xj<sup>3</sup> + axj + b mod p. If sj<sup>(</supp−1)/2</sup> ≡ 1 mod p, then sj is a square mod p. For p ≡ 3 mod 4, yj ≡ sj ^ (p+1)/4  mod p.<br>
 The message m is embedded as Pm = (xj, yj). m can be recovered by a division operation on x coordinate of Pm and taking the floor value [19]. m = [bxj/1000c].
