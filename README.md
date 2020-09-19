@@ -10,6 +10,14 @@ existing encryption schemes.
 
 An android application is made to encrypt and decrypt texts and numbers using the Elliptic curve analogue ElGamal encryption scheme. There are more applications of it as mentioned in paper and so the further works will also be done on image and audio encryption.
 
+# IMAGES OF THE APP:
+
+
+![Image of start](https://github.com/ani37/EncryptDecrypt/tree/master/images/0.png?raw=true)
+![Image of encrypt](https://github.com/ani37/EncryptDecrypt/tree/master/images/1.png)
+![Image of decrypt](https://github.com/ani37/EncryptDecrypt/tree/master/images/2.png)
+![Image of profile](https://github.com/ani37/EncryptDecrypt/tree/master/images/3.png)
+
 ## Preliminaries<br>
 #### Elliptic curve over finite field<br>
 Let Ep be an elliptic curve equation over a finite field<br>
