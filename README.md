@@ -13,10 +13,7 @@ An android application is made to encrypt and decrypt texts and numbers using th
 # IMAGES OF THE APP:
 
 
-![Image of start](https://github.com/ani37/EncryptDecrypt/tree/master/images/0.png?raw=true)
-![Image of encrypt](https://github.com/ani37/EncryptDecrypt/tree/master/images/1.png)
-![Image of decrypt](https://github.com/ani37/EncryptDecrypt/tree/master/images/2.png)
-![Image of profile](https://github.com/ani37/EncryptDecrypt/tree/master/images/3.png)
+<img src="https://raw.githubusercontent.com/ani37/EncryptDecrypt/master/images/0.png" width="220" height="400" />       <img src="https://raw.githubusercontent.com/ani37/EncryptDecrypt/master/images/1.png" width="220" height="400" />     <img src="https://raw.githubusercontent.com/ani37/EncryptDecrypt/master/images/2.png" width="220" height="400" />     <img src="https://raw.githubusercontent.com/ani37/EncryptDecrypt/master/images/3.png" width="220" height="400" />
 
 ## Preliminaries<br>
 #### Elliptic curve over finite field<br>
